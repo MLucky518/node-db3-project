@@ -37,7 +37,7 @@ function remove(id) {
     .where({ id })
     .del()
     .then((res) => {
-      return res === 1 ? `scheme with id ${id}` : null;
+      return res === 1 ? `Scheme with id ${id}` : null;
     });
 }
 
